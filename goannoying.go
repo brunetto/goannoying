@@ -3,6 +3,8 @@
 // https://code.google.com/p/go-wiki/wiki/SendingMail
 // to show how to write annoying mail to your supervisor
 // to have an answer or to have a paper read!:P
+
+// FIXME: fix kill the program goroutines
 package main
 
 import (
