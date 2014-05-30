@@ -26,7 +26,7 @@ func main() {
 		randomSeed   int64 = 42
 	)
 
-	if pw, err = gopass.GetPass("Please insert yuor password: "); err != nil {
+	if pw, err = gopass.GetPass("Please insert your password: "); err != nil {
 		log.Fatal("Error retrieving password; ", err)
 	}
 
